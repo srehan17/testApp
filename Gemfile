@@ -15,6 +15,8 @@ gem 'pg', '~> 0.18'
 
 gem 'carrierwave'
 
+gem 'mini_magick'
+
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -33,6 +35,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bulma-rails', '~> 0.8.0'
 
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
+gem 'fog', '~> 2.2'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
